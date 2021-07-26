@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "autonexus",
+  "version": "${version}",
+
+  "name": "autonexus",
+  "description": "A mod created for people who cant nexus in time on rotmc",
+  "authors": [
+    "Crab"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/autonexus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      
+    ]
+  },
+  "mixins": [
+    "autonexus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "java": ">=8"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
